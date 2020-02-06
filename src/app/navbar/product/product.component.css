@@ -1,0 +1,54 @@
+.login
+{
+    position: fixed;;
+    left:35%;
+    top:30%;
+    width:30%;
+    height:65%;
+    background-color: dimgrey;
+    border-radius:15px;
+    color:white;
+    font-size:18px;
+    z-index:3;
+}
+.login_bt
+{
+    position: absolute;
+    left:40%;
+    width:15%;
+    height:10%;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-size:18px;
+    z-index:3;
+}
+.create_bt
+{
+    position: absolute;
+    left:30%;
+    width:40%;
+    height:10%;
+    border-radius: 5px;
+    background-color: slategrey;
+    color: white;
+    font-size:18px;
+    z-index:3;
+}
+input[type='submit']:hover{
+    background-color:darkslategrey;
+}
+.captcha
+{
+    position:absolute;
+    top:45%;
+    left:20%;
+    width: 23%;
+    height:8%;
+    background-color: lightsteelblue;
+    color: midnightblue;
+    text-align: center;
+    font-size:30px;
+    font-family: monospace;
+}
+    

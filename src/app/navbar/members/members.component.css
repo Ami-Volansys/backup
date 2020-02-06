@@ -1,0 +1,27 @@
+.signup
+{
+    position: fixed;;
+    left:35%;
+    top:30%;
+    width:30%;
+    height:65%;
+    background-color: slategrey;
+    border-radius:15px;
+    color:white;
+    font-size:18px;
+    z-index:3;
+}
+
+.create_bt
+{
+    position: absolute;
+    left:30%;
+    width:40%;
+    height:10%;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-size:18px;
+    z-index:3;
+}
+   
