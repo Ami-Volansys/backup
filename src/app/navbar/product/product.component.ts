@@ -39,11 +39,11 @@ export class ProductComponent implements OnInit {
       
      let y =  (<HTMLInputElement>document.getElementById("printdata")).value;
      
-      if(x === y)
+      if(!y)
       {
-        alert("captcha is valid");
+        alert("Enter Captcha");
       }
-      else
+      else if(x!=y)
       {
         alert("captcha is invalid");
       }
